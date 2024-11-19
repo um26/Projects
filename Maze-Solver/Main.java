@@ -1,15 +1,13 @@
 import java.util.LinkedList;
 import java.util.Queue;
 
-import org.hamcrest.core.StringContains;
-
 public class Main{
 
   static int[][] maze = {
     {0,1,0,0,0},
     {0,1,0,1,0},
     {0,0,0,1,0},
-    {0,1,0,0,0},
+    {0,1,0,0,1},
     {0,0,0,1,0}
   };
 
