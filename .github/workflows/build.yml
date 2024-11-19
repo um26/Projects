@@ -22,5 +22,6 @@ jobs:
         distribution: 'temurin'
         java-version: '17' # Replace with your Java version
 
-    - name: Build with Gradle
-      run: ./gradlew build # Replace with 'mvn package' for Maven projects
+    - name: Build with Maven
+      run: mvn clean package
+ # Replace with 'mvn package' for Maven projects
