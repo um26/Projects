@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class QuizApplication {
     private static List<Quiz> quizzes = new ArrayList<>();
 
-    public static voidmain(String[] args){
+    public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         int choice;
 
@@ -76,7 +76,7 @@ public class QuizApplication {
 
         System.out.println("\nAvailable Quizzes:");
         for(int i =0; i<quizzes.size(); i++){
-            System.out.println((i+1) + ". " + quizzes.get(i). getTiltle());
+            System.out.println((i+1) + ". " + quizzes.get(i). getTitle());
         }
 
         System.out.print("Select a quiz to play (1-" + quizzes.size()+ "): ");
