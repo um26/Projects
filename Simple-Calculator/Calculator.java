@@ -9,7 +9,6 @@ public class Calculator extends JFrame implements ActionListener{
   private JButton addButton, subButton, mulButton, divButton, equalsButton, clearButton;
 
 
-
   private double num1, num2, result;
   private char operator;
 
